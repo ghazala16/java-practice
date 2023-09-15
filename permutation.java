@@ -2,6 +2,8 @@ public class permutation
 {
     public static void findPermutation(String str,String ans)
     {
+        //// If the input string is empty, we have found a permutation.
+        // Print it and return.
         if(str.length()==0)
         {
             System.out.println(ans);
