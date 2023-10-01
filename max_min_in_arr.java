@@ -19,15 +19,15 @@
 import java.util.Arrays;
 
 class Pair {
-	public int min;
+	public int min;//variable
 	public int max;
 }
 
 class Main {
 	static Pair getMinMax(int arr[], int n) {
-		Pair minmax = new Pair();
+		Pair minmax = new Pair();//mimax is object of class pair
 		Arrays.sort(arr);
-		minmax.min = arr[0];
+		minmax.min = arr[0];//calling var with the help of obj
 		minmax.max = arr[n - 1];
 		return minmax;
 	}
