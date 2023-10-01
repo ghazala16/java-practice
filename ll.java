@@ -1,5 +1,3 @@
-import java.util.LinkedList;
-
 public class ll {
     public static class Node{
         int data;
@@ -85,7 +83,7 @@ public void add(int idx,int data)
     temp.next=newNode;
 }
     public static void main(String[] args) {
-        LinkedList ll= new LinkedList();
+        ll ll= new ll();
         ll.print();
         ll.addFirst(1);
         ll.addFirst(2);
