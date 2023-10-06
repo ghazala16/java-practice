@@ -1,3 +1,4 @@
+//stack using arraylist
 import java.util.ArrayList;
 public class st_stack {
     public static void main(String[] args)
