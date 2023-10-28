@@ -1,4 +1,4 @@
-public class reverse {
+/*public class reverse {
         public static void main(String[] args) {
         int arr[] = {211, 3, 4, 5, 6};
 
@@ -16,3 +16,40 @@ public class reverse {
         }
     }
 }
+*/
+
+
+/* 
+public class reverse
+{
+    public static void main(String args[])
+    {
+        int n=1000;
+        while(n>0)
+        {
+            int rev=n%10;
+            System.out.println(rev);
+            n/=10;
+        }
+    }
+}
+
+*/
+
+public class reverse
+{
+    public static void main(String args[])
+    {
+        int n=1000;
+        int rev=0;
+        while(n>0)
+        {
+            int number=n%10;
+            rev=number*10+rev;
+            n/=10;
+        }
+        System.out.print(rev);
+    }
+}
+
+
