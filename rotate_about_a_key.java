@@ -7,7 +7,7 @@ public class rotate_about_a_key {
             if(arr[i]==key)
             {
                 arr[0]=key;
-                for(i=0;i<arr.length,arr[i]<arr.length;i++,++arr[i])
+                for(i=0;i<arr.length;i++)
                 {
                     arr[i]=arr[key];
                     System.out.println(arr[i]);

@@ -27,14 +27,19 @@ public class N_Queen {
                 printBoard(board);
                 return;
             }
+        }
+    }
             public static void printBoard(char board[][])
             {
                 System.out.println("-------------------");
-                for (int i = 0; i < board.length; i++) {
-                    System.out.println(board[i][j]+" ");
+                for (int i = 0; i < board.length; i++)
+                {
+                    System.out.println(board[i][i]+" ");
+                }
+                System.out.println();
             }
-            System.out.println();
-        }
+        
+    
         public static boolean isSafe(char board[][],int row,int col)
         {
             //vertically upSafe or not
@@ -58,7 +63,5 @@ public class N_Queen {
             }
             return true;
         }
-
-    }
 }
-}
+    
